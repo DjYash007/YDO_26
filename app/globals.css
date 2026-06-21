@@ -6,3 +6,27 @@
     margin: 0;
     padding: 0;
 }
+
+@theme {
+
+
+    --color-background: #FFF4EE;
+    --color-primary: #D3BCF9;
+    --color-secondary: #C1F8FF;
+    --color-foreground: #FFDD9E;
+    --color-stroke: #000000;
+ 
+  /* ----------------------------------------------------------  */
+
+    --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
+    --font-prime: "Courier Prime", "Courier New", ui-monospace, monospace;
+
+
+  /* ---------------------------------------------------------- */ 
+
+    --text-xs: 12px;
+    --text-base: 16px;
+    --text-xl: 20px;
+
+
+}
