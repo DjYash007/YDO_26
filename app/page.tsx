@@ -1,5 +1,9 @@
-import { redirect } from "next/navigation";
+import LandingPage from "@/components/pages/LandingPage";
 
 export default function Home() {
-  redirect("/login");
+  return (
+    <div className="min-h-screen bg-(--color-background)">
+      <LandingPage />
+    </div>
+  );
 }
